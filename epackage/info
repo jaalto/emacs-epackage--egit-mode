@@ -1,0 +1,31 @@
+Package: egit-mode
+Section: data
+License: GPL-2+
+Depends: emacs (>= 22)
+Status: stable
+Compat:
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Bugs:
+Upstream: Jim Hourihan <jimhourihan@gmail.com>
+Upstream-Bugs:
+Vcs-Type: git
+Vcs-Url: git://github.com/jimhourihan/egit.git
+Vcs-Browser: https://github.com/jimhourihan/egit
+Vcs-User:
+Vcs-Password:
+Homepage:
+Wiki: http://www.emacswiki.org/emacs/Git
+Commentary: egit.el
+X-Development:
+ 2011-12-14 Upstream has not activated issue tracker at Github.
+Description: major mode for git commit history ala gitk
+ An interface to git commands which are not part of git.el. Primarily, this
+ is a view of the git commit history with the ability to mark ranges and/or
+ single commits and operate on them. Mutiple branches/tags/ref interfaces
+ can be active at the same time.
+ .
+ Basic use:
+ .
+    M-x egit       View history of branch, tag, or other ref
+    M-x egit-file  View commits related to a specific file
+    M-x egit-dir   View commits related to files within a directory
