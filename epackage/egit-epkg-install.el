@@ -1,0 +1,5 @@
+(autoload 'egit-mode                            "egit" "" t)
+(autoload 'egit-dir                             "egit" "" t)
+(autoload 'egit-file                            "egit" "" t)
+(autoload 'egit                                 "egit" "" t)
+(provide 'egit-epkg-install)
