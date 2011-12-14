@@ -7,7 +7,7 @@ Compat:
 Maintainer: Jari Aalto <jari.aalto@cante.net>
 Bugs:
 Upstream: Jim Hourihan <jimhourihan@gmail.com>
-Upstream-Bugs:
+Upstream-Bugs: https://github.com/jimhourihan/egit/issues
 Vcs-Type: git
 Vcs-Url: git://github.com/jimhourihan/egit.git
 Vcs-Browser: https://github.com/jimhourihan/egit
