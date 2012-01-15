@@ -58,4 +58,4 @@
 (autoload 'egit-file                            "egit" "" t)
 (autoload 'egit                                 "egit" "" t)
 (autoload 'egit-diff-mode                       "egit" "" t)
-(provide 'egit-epkg-autoloads)
+(provide 'egit-epackage-autoloads)

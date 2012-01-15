@@ -2,4 +2,4 @@
 (autoload 'egit-dir                             "egit" "" t)
 (autoload 'egit-file                            "egit" "" t)
 (autoload 'egit                                 "egit" "" t)
-(provide 'egit-epkg-install)
+(provide 'egit-epackage-install)
